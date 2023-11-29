@@ -1,0 +1,57 @@
+:root {
+    --primary-color: #f9532d;
+    --primary-dark: #1F252E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto;
+    background: #1F252E;
+    height: 100vh;
+    color: #ffffff;
+}
+/* Nav Bar */
+.container {
+    padding: 0 200px;
+}
+
+header {
+    box-shadow: 0 4px 17px rgba(255, 255, 255, 0.1);
+    background: #1F252E;
+}
+
+.page-header {
+  
+    padding: 1rem 0;
+}
+
+ul {
+
+    gap: .6rem;
+    list-style-type: none;
+}
+
+
+li{
+    display: inline;
+    padding: .3rem 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 2;
+
+}
+li a {
+    color: #ffffff;
+    text-decoration: none;
+
+    
+}
+/* Main*/
+
+
+
